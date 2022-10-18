@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pemesanan Barang</title>
+</head>
+<body>
+    <h4 align="center"> A New Page</h4>
+        <td><img src="icon cari.png" width="30" height="20"></td>
+        <td><label for="search">search</label></td>
+        <td><input type="text" id="search"></td>
+    <hr>  
+    <form action="form-pemesanan.html">
+        <fieldset>
+            <table width="100%">
+                <tr>
+                    <td> Home |</td>
+                    <td> Generate Link |</td>
+                    <td> Transaction History |</td>
+                    <td>  Policy | </td>
+                    <td> Logout |</td>
+                </tr>
+            </table>
+        </fieldset>
+
+    <table>
+        <TR></TR>
+            <div>
+                <img src="kotak.png" width="200" height="100; margin-right: 5px">
+            </div>
+            <div>
+                <input type="button" value="Upload Picture" style="margin-top: 15px; margin-left: 45px;">
+                <form >
+                <table style="margin-left: 250px; margin-top: 15px; padding-left: 5%;" >
+                    <tr>
+                        <td width="200 rowspan=4"><label for="title">Title here</label></td>
+                        <td>: <input type="text" id="title"></td>
+                    </tr>
+                    <tr>
+                    <td><label for="deskripsi">Description</label></td>
+                    <td>: <textarea name="" id="deskripsi" cols="30" rows="10"></textarea></td>
+                    </tr>
+                    <tr>
+                    <td><label for="no">Account Number</label></td>
+                    <td>: <input type="number" id="no"></td>
+                    </tr>
+                    <tr>
+                    <td>
+                        <label for="bank">Bank</label></td>
+                    <td>
+                        :<select name="bank" style="width: 100px; margin-left: 5px;">
+                        <option  value=""> BRI </option>
+                        <option  value=""> BTN </option>
+                        <option  value=""> BCA </option>
+                        <option  value=""> SPAY </option>
+                        </select>
+                    </td>
+                    </tr>
+                    <tr>
+                        <td><label for="holder">Account Holder</label></td>
+                        <td>: <input type="text" id="holder"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="transaksi">Transaction</label></td>
+                    <td>:<select name="transaksi" style="width: 50px; margin-left:1%;">
+                        <option  value="1"> 1 </option>
+                        <option  value="2"> 2 </option>
+                        <option  value="3"> 3 </option>
+                      </select>
+                    </td>
+                    </tr>
+                    <tr> 
+                    <td></td>
+                        <td> * if the transaction is for 3 person, choose 3 from the drop-down list
+                        <P>
+                            <input type="checkbox" id="phone" >
+                            <label for="phone", style="color:green">Send to Mobile Phone</label>
+                        </P>
+                        </td>
+                    </tr>
+                    <tr>
+                    <td></td>
+                    <td>
+                        <input type="checkbox" id="email" >
+                        <label for="email", style="color:green">Send to Email</label>
+                    </td>
+                    </tr>
+                    <tr>
+                        <td><label for="hp">Send to Mobile Phone</label></td>
+                        <td>: <input type="number" id="hp" ></td>
+                    </tr>
+                    <tr>
+                        <td><label for="email">Send to Email</label></td>
+                        <td>: <input type="email" id="email"></td>
+                    </tr>
+                </table>
+        <br>
+        <br>
+        <br>
+    </table>
+        <br>
+        <br>
+        <br>
+        <button  style=" padding:15px; width: 15%; margin-left: 45%; background-color: green;" 
+        name="submit">Generate Nabr Link</button>
+    </form>
+    </div>
+</body>
+</html>
