@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas Praktikum 9</title>
+    <script>
+        function Hasil() {
+            let bilangan1 = document.getElementById("bil1").value;
+            let bilangan2 = document.getElementById("bil2").value;
+            let hasil_var = parseInt(bilangan1) + parseInt(bilangan2);
+            let hasil = document.getElementById("hasil jumlah");
+            hasil.innerHTML = hasil_var;
+        }
+    </script>
+</head>
+<body>
+   <input type="number" id="bil1">
+   <br>
+   +
+   <br>
+   <input type="number" id="bil2"><input type="submit" onclick="Hasil()">
+   <br>
+   =
+   <span id="hasil jumlah"></span>
+</body>
+</html>
